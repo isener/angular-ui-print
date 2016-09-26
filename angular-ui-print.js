@@ -52,6 +52,10 @@
             restrict: 'A',
             link: function (scope, element, attr) {
                 element.on('click', function () {
+                    var elements = document.getElementsByClassName('printSection');
+                    while (elements.length > 0) {
+                        elements[0].classList.remove('printSection');
+                    }
                     var printingArea = attr.printBtn;
                     document.querySelector('[print-section=' + printingArea + ']').className += " printSection";
                     var isLandscape = element[0].getAttribute('landscape');
