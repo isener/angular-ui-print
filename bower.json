@@ -1,0 +1,20 @@
+{
+  "name": "angular-ui-print",
+  "authors": [
+    "Ismail Sener <i_sener@hotmail.com.tr>"
+  ],
+  "description": "Advanced printing library in Angular 1.x projects",
+  "main": [
+    "angular-ui-print.js",
+    "angular-ui-print.css"
+  ],
+  "keywords": [
+    "print",
+    "ngprint",
+    "angularprint",
+    "angular",
+    "documentprint"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
